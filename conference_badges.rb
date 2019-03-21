@@ -26,5 +26,3 @@ def printer(speakers)
       return assignment
     end
 end
-
-printer(speakers)
