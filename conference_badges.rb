@@ -8,8 +8,8 @@ speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 
 def batch_badge_creator(speakers)
-  speakers.map do |speakers|
-    puts "Hello, my name is #{speakers}."
+  speakers.map do |speaker|
+    badge_maker(speaker)
   end
 end
 
